@@ -21,9 +21,9 @@ Once installed open your terminal and see the magic!
 
 ## Technologies
 
--Javascript
--Node
--Package.json
+- Javascript
+- Node
+- Package.json
 
 ### Github Link
 
