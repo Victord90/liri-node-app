@@ -95,7 +95,7 @@ const input = process.argv[3];
             })
     }
 
-    function doThis(input) {
+    function doThis() {
         fs.readFile("random.txt", "utf8", function(error, data) {
             if (error) {
                 return console.log(error)
