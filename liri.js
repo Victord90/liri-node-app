@@ -97,11 +97,13 @@ const input = process.argv[3];
 
     function doThis() {
         fs.readFile("random.txt", "utf8", function(error, data) {
+            //console.log(data)
             if (error) {
                 return console.log(error)
             }
             let dataArray = data.split(",");
-            console.log(dataArray)
-            spotifyThis(dataArray[0], dataArray[1])
+            spotifyThis(dataArray[1])
+
+            
         })
     }
